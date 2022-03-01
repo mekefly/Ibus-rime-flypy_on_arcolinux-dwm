@@ -31,6 +31,8 @@ curl https://gitee.com/mekefly/Ibus-rime-flypy_on_arcolinux-dwm/main/install.sh 
 cd ~/.config/arco-dwm
 ```
 
+
+
 ### 2.2  编辑自启动文件
 
 执行
@@ -46,6 +48,14 @@ run "ibus-daemon --xim -d"
 ```
 
 
+
+### 2.3 从新编译安装dwm
+
+注意：更改dwm建议先放到git里面去以防止电脑蹦了
+
+```shell
+sudo make clean install
+```
 
 ###  重启后就可以使用了
 
